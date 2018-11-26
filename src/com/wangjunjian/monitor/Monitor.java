@@ -11,7 +11,7 @@ import java.util.*;
 
 public class Monitor {
     public static final String MONITOR_LOG = "monitor.log";
-    public static final String MONITOR_TASK = "monitor_task.txt";
+    public static final String MONITOR_PROGRAM = "monitor_program.txt";
     public static final String SEPARATION_LINE = "-".repeat(80);
 
     public Set<String> pragramNames = new HashSet<>();
@@ -24,7 +24,7 @@ public class Monitor {
     public void loadTasks() throws IOException {
         System.out.println("Load monitor program:");
 
-        FileInputStream inputStream = new FileInputStream(MONITOR_TASK);
+        FileInputStream inputStream = new FileInputStream(MONITOR_PROGRAM);
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
 
         String line = null;
@@ -79,8 +79,8 @@ public class Monitor {
             long totalMemory = operatingSystemMXBean.getTotalPhysicalMemorySize();
             long freeMemory = operatingSystemMXBean.getFreePhysicalMemorySize();
             long usedMemory = totalMemory - freeMemory;
-            sb.append(String.format("operating system used memory: %d MB", usedMemory / BYTE_2_MB)).append(System.lineSeparator());
-            sb.append(String.format("operating system free memory: %d MB", freeMemory / BYTE_2_MB)).append(System.lineSeparator());
+            sb.append(String.format("Operating System used memory: %d MB", usedMemory / BYTE_2_MB)).append(System.lineSeparator());
+            sb.append(String.format("Operating System free memory: %d MB", freeMemory / BYTE_2_MB)).append(System.lineSeparator());
             sb.append(System.lineSeparator());
 
             printWriter.write(sb.toString());
