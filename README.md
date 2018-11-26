@@ -44,7 +44,6 @@ Operating System free memory: 3379 MB
 * [How to Get a List of Current Open Processes with Java?](https://crunchify.com/how-to-get-a-list-of-current-open-processes-with-java/)
 * [jProcesses](https://github.com/profesorfalken/jProcesses/blob/master/src/main/java/org/jutils/jprocesses/util/ProcessesUtils.java)
 * [How to get a list of current open windows/process with Java?](https://stackoverflow.com/questions/54686/how-to-get-a-list-of-current-open-windows-process-with-java)
-* []()
 * [How to do I check CPU and Memory Usage in Java?](https://stackoverflow.com/questions/74674/how-to-do-i-check-cpu-and-memory-usage-in-java)
 * [get OS-level system information](https://stackoverflow.com/questions/25552/get-os-level-system-information)
 * [java 获取进程ID 物理内存 cpu使用百分比（linux环境）](https://blog.csdn.net/qiezikuaichuan/article/details/49027417)
