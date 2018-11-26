@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="memory-monitor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/memory_monitor_jar</output-path>
+    <root id="archive" name="memory-monitor.jar">
+      <element id="module-output" name="memory-monitor" />
+    </root>
+  </artifact>
+</component>
